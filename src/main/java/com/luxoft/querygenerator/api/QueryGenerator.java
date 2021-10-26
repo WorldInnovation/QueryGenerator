@@ -4,11 +4,11 @@ public interface QueryGenerator {
     //
     String findAll(Class<?> clazz);
 
-    String findById(Object id);
+    String findById(Class<?> clazz);
 
-    String insert(Object value);
+    String insert(Class<?> clazz);
 
-    String remove(Object id);
+    String remove(Class <?> clazz);
 
-    String update(Object value);
+    String update(Class<?> clazz);
 }
