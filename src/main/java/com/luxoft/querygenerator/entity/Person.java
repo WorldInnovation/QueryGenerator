@@ -8,14 +8,15 @@ import com.luxoft.querygenerator.domain.Salary;
 
 // ORM
 @Entity(table = "persons")
-public class Person {
-    @Column
-    @Id
-    private int id;
-    @Column(name = "person_name")
-    private String name;
-    @Column
-    @Salary
-    private double salary;
+public class Person
+{
+	@Column
+	@Id
+	private int id;
+	@Column(name = "person_name")
+	private String name;
+	@Column
+	@Salary
+	private double salary;
 
 }
